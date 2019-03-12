@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    .out{
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+      border:1px solid red;
+    }
+
+    .m{
+      width: 100%;
+    }
+
+  </style>
+  <script>
+    import BScroll from 'better-scroll';
+    window.onload=function(){
+      const wrapper = document.querySelector('.m')
+      const scroll = new BScroll(wrapper)
+
+    }
+  </script>
+</head>
+<body>
+<div class="out">
+  <ul class="m">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+    <li>9</li>
+    <li>10</li>
+    <li>11</li>
+    <li>12</li>
+  </ul>
+</div>
+</body>
+</html>

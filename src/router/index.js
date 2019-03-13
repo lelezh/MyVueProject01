@@ -8,18 +8,22 @@ export default new Router({
   routes: [
     {
       path:'/goods',
+      name:'goods',
       component:(resolve)=>require(['../components/goods/goods'],resolve)
     },
     {
       path:'/ratings',
+      name:'ratings',
       component:(resolve)=>require(['../components/ratings/ratings'],resolve)
     },
     {
       path:'/seller',
+      name:'seller',
       component:(resolve)=>require(['../components/seller/seller'],resolve)
     },
     {
       path:'*',
+      name:'goods',
       redirect:'/goods'
     }
   ]

@@ -59,7 +59,7 @@
     display: inline-block;
     width: 20px;
     height: 20px;
-    background: url("minus.png") no-repeat;
+    background:url("/static/minus.png") no-repeat;
     background-size: 20px 20px;
   }
 

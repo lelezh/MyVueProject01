@@ -1,5 +1,6 @@
 # project2
 看完书跟着视频做了这个小项目-- by lelezh
+https://lelezh.github.io/MyVueProject01/dist/
 > A Vue.js project
 
 ## Build Setup
